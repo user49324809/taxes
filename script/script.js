@@ -48,6 +48,7 @@ document.getElementById("closeModal").addEventListener("click", () => {
 function showWindow() {
   document.getElementById("modalWindow").style.display = "block";
 }
+//функция слайдера
 const sliderContainer = document.getElementById('productGrid');
 function slide(direction) {
   if (window.innerWidth > 768) return; 

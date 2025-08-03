@@ -199,6 +199,7 @@ body{
     border-radius: 20px;
     text-transform: uppercase;
     margin: 0;
+    width: fit-content;
 }
 
 .section_contacts_title{
@@ -301,8 +302,8 @@ body{
 .button_review{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 27px;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
     width: 168px;
     height: 61px;
@@ -333,7 +334,7 @@ label{
 
 .form_review {
     width: 100%;
-    max-width: 600px;
+    max-width: 666px;
     padding: 0 16px; 
     box-sizing: border-box;
 }
